@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaibhav – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">V.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+    <a href="#resume" class="nav-cta">Download CV</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-tag"><span class="dot"></span> Open to opportunities</div>
+      <h1 class="hero-name">Hey, I'm <span class="accent">Vaibhav</span> 👋</h1>
+      <p class="hero-sub">1st year B.Tech student · 18 · Builder · Explorer</p>
+      <p class="hero-desc">
+        I live at the intersection of <span class="highlight">code</span>, <span class="highlight">science</span>, and <span class="highlight">creativity</span>.
+        Whether it's writing software, understanding the laws of nature, or framing a cinematic shot —
+        I'm driven by the same thing: turning ideas into something real.
+      </p>
+      <div class="hero-btns">
+        <a href="#interests" class="btn-primary">Explore my world</a>
+        <a href="#resume" class="btn-ghost">View Resume</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-block">
+        <div class="code-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename">vaibhav.js</span>
+        </div>
+        <pre><code><span class="kw">const</span> <span class="var">vaibhav</span> = {
+  <span class="key">age</span>: <span class="num">18</span>,
+  <span class="key">degree</span>: <span class="str">"B.Tech (1st year)"</span>,
+  <span class="key">loves</span>: [
+    <span class="str">"coding"</span>,
+    <span class="str">"science"</span>,
+    <span class="str">"astronomy"</span>,
+    <span class="str">"photography"</span>,
+  ],
+  <span class="key">superpower</span>: <span class="str">"turning ideas into code"</span>,
+  <span class="key">currentlyLearning</span>: <span class="str">"everything"</span>,
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <div class="section-label">What I work with</div>
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <div class="skill-name">Programming</div>
+          <div class="skill-tags">
+            <span>Python</span><span>JavaScript</span><span>C</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔬</div>
+          <div class="skill-name">Science & Engineering</div>
+          <div class="skill-tags">
+            <span>Physics</span><span>Mathematics</span><span>Data Analysis</span><span>Problem Solving</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📷</div>
+          <div class="skill-name">Creative</div>
+          <div class="skill-tags">
+            <span>Photography</span><span>Video Editing</span><span>Storytelling</span><span>Composition</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌌</div>
+          <div class="skill-name">Astronomy</div>
+          <div class="skill-tags">
+            <span>Astrophysics</span><span>Observation</span><span>Space Science</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS -->
+  <section class="section dark" id="interests">
+    <div class="section-inner">
+      <div class="section-label light">What drives me</div>
+      <h2 class="section-title light">My World</h2>
+      <div class="interests-grid">
+
+        <div class="interest-card big">
+          <div class="interest-icon">⚡</div>
+          <h3>Coding & CS</h3>
+          <p>The most incredible thing I've found. You write instructions, and a machine executes them perfectly — instantly. CS is the closest thing to a superpower. I'm obsessed with how software works at every layer.</p>
+        </div>
+
+        <div class="interest-card">
+          <div class="interest-icon">🔭</div>
+          <h3>Science & Engineering</h3>
+          <p>Designing things from the laws of nature. Analysing systems and using first principles to reach definite conclusions. There's beauty in how the universe follows rules.</p>
+        </div>
+
+        <div class="interest-card">
+          <div class="interest-icon">🌌</div>
+          <h3>Astronomy</h3>
+          <p>The scale of the cosmos puts everything in perspective. From black holes to the cosmic web — space is endlessly fascinating.</p>
+        </div>
+
+        <div class="interest-card">
+          <div class="interest-icon">🎬</div>
+          <h3>Photography & Film</h3>
+          <p>Capturing moments and crafting cinematic edits. Every frame tells a story — I love being the one who decides how that story looks.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section" id="resume">
+    <div class="section-inner">
+      <div class="section-label">The formal stuff</div>
+      <h2 class="section-title">Resume</h2>
+
+      <div class="resume-grid">
+        <div class="resume-col">
+
+          <div class="resume-block">
+            <div class="resume-block-title">🎓 Education</div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <span class="resume-item-title">B.Tech – Computer Science & Engineering</span>
+                <span class="resume-item-year">2026 – Present</span>
+              </div>
+              <div class="resume-item-sub">1st Year · Currently enrolled</div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <span class="resume-item-title">Higher Secondary (12th)</span>
+                <span class="resume-item-year">2025</span>
+              </div>
+              <div class="resume-item-sub">Physics · Chemistry · Mathematics</div>
+            </div>
+          </div>
+
+          <div class="resume-block">
+            <div class="resume-block-title">🛠 Technical Skills</div>
+            <div class="resume-tags">
+              <span>Python</span>
+              <span>C++</span>
+              <span>C</span>
+              <span>Problem Solving</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="resume-col">
+
+          <div class="resume-block">
+            <div class="resume-block-title">🌟 Highlights</div>
+            <ul class="resume-list">
+              <li>Passionate about computer science and software engineering from the ground up</li>
+              <li>Strong foundation in physics and mathematics — applies first-principles thinking to problems</li>
+              <li>Self-driven learner — builds projects to understand concepts deeply</li>
+              <li>Creative background in photography and cinematic video editing</li>
+              <li>Keen interest in astrophysics and space science</li>
+            </ul>
+          </div>
+
+          <div class="resume-block">
+            <div class="resume-block-title projects-title">🚀 Curiosity Driven Projects</div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <span class="resume-item-title">Minecraft Elytra Automation</span>
+                <a href="https://github.com/vaibhav" target="_blank" class="resume-link">GitHub ↗</a>
+              </div>
+              <div class="resume-item-sub">Python · Empirical Modelling · Curve Fitting · Dynamic Error Correction</div>
+              <p class="resume-item-desc">Manually collected data from 400+ flights — recording velocity components (vx, vy) across angles — then applied curve fitting to derive predictive functions for flight behaviour. Built a full prediction engine that outputs required launch angle, height, and exact landing time. Tackled non-uniform velocity (the acceleration phase before terminal velocity) which caused significant average shifts on shorter flights — modelled this separately and blended it into the prediction. Designed a dynamic error compensation channel that tracks and corrects accumulating drift as a function within the code. Final accuracy: <strong>99.9984%+</strong> — under 7–8 blocks of error over 150,000 block flights. Built entirely solo, zero AI assistance.</p>
+            </div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <span class="resume-item-title">Marble Interception System</span>
+              </div>
+              <div class="resume-item-sub">Classical Mechanics · DC Motor Dynamics · Deterministic Systems</div>
+              <p class="resume-item-desc">Built a physical system that intercepts a marble rolling down an incline — using zero external sensors or visual tracking. Modelled the target marble's incline dynamics and timing from pure kinematics. The interceptor is fired by a DC motor, with full mathematical compensation for motor acceleration profile and electrical trigger delay (the gap between current reaching the coil and the motor actually moving). Every variable accounted for in equations. The result: a deterministic, open-loop interception system that works purely on math — and it hits.</p>
+            </div>
+          </div>
+
+          <div class="resume-block">
+            <div class="resume-block-title">🤖 Interaction with AI</div>
+            <p class="resume-item-desc">Heavy user of ChatGPT — primarily for knowledge, curiosity, and deep-diving into topics across science, math, and engineering. For development work, have used Amazon Q (antigravity) and Kiro to build and deploy websites as part of a semester subject — treating AI as a tool, not a crutch.</p>
+          </div>
+
+          <div class="resume-block">
+            <div class="resume-block-title">🎯 Interests</div>
+            <div class="resume-tags">
+              <span>Open Source</span>
+              <span>Astronomy</span>
+              <span>Photography</span>
+              <span>Cinematography</span>
+              <span>Physics</span>
+              <span>AI & ML</span>
+              <span>Systems Programming</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="resume-download">
+        <button class="btn-primary" onclick="window.print()">🖨 Print / Save as PDF</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-name">Vaibhav</div>
+    <p>18 · B.Tech CSE · Builder in progress 🚀</p>
+    <p class="footer-copy">Made with curiosity & code.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
